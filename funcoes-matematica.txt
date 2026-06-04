@@ -15,6 +15,7 @@ min
 max
 tail
 std
+samples
 nunique
 var
 quantiles
