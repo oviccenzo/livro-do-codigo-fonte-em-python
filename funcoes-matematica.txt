@@ -26,5 +26,6 @@ drop_duplicates
 dropna
 hist
 fillna
+usd
 sem
 plot
