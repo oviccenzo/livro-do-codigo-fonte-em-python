@@ -1,0 +1,29 @@
+A principal funções matematica:
+median
+head
+mode
+mean
+count
+idxmax 
+idxmin 
+o argmax e argmin e com a biblioteca numpy -> import numpy as np
+sum
+corr
+describe
+value_counts()
+min
+max
+tail
+std
+nunique
+var
+quantiles
+cumsum
+round
+abs
+drop_duplicates
+dropna
+hist
+fillna
+sem
+plot
