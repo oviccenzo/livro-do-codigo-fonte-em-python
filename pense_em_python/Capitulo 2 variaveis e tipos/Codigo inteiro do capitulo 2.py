@@ -13,22 +13,30 @@ print(pi)
 #    76trombones = 'big parede'
     #  ^
 # SyntaxError: invalid decimal literal
+trombones = 'big parece'
+print(trombones)
 
 # mora@ = 1000000
           # ^
 # SyntaxError: invalid syntax
+mora = 1000000
+print(mora)
 
 # class = 'Advanced Theoretical Zymurgy'
 #           ^
 # SyntaxError: invalid syntax
+class_ = 'Advanced Theoretical Zymurgy'
+print(class_)
 
 ###2.2 - expressoes e instrucoes
 
-42
+print(42)
 
 n = 17
 
-n + 25
+print(n)
+
+print(n + 25)
 
 n1 = 17
 print(n1)
@@ -57,7 +65,7 @@ print(x2 + 1)
 
 ###ordem das operações
 
-# expressoes de parentese
+expressoes de parentese
 
 print(2*(3-1))
 
@@ -91,6 +99,8 @@ print(int(8 + math.pow(2, 9)))
 print(int(9 + math.pow(2, 10)))
 print(int(10 + math.pow(2, 11)))
 
+import math
+
 print(int(1 + math.pow(3,2)))
 print(int(2 + math.pow(3,3)))
 print(int(3 + math.pow(3,4)))
@@ -100,6 +110,30 @@ print(int(6 + math.pow(3,7)))
 print(int(7 + math.pow(3,8)))
 print(int(8 + math.pow(3,9)))
 print(int(9 + math.pow(3,10)))
+
+import math
+
+print(int(1 + math.pow(4,2)))
+print(int(2 + math.pow(4,3)))
+print(int(3 + math.pow(4,4)))
+print(int(4 + math.pow(4,5)))
+print(int(5 + math.pow(4,6)))
+print(int(6 + math.pow(4,7)))
+print(int(7 + math.pow(4,8)))
+print(int(8 + math.pow(4,9)))
+print(int(9 + math.pow(4,10)))
+
+import math 
+
+print(int(1 + math.pow(5,2)))
+print(int(2 + math.pow(5,3)))
+print(int(3 + math.pow(5,4)))
+print(int(4 + math.pow(5,5)))
+print(int(5 + math.pow(5,6)))
+print(int(6 + math.pow(5,7)))
+print(int(7 + math.pow(5,8)))
+print(int(8 + math.pow(5,9)))
+print(int(9 + math.pow(5,10))) 
 
 ###raiz ao quadrado
 
@@ -114,6 +148,7 @@ print((math.sqrt(8)))
 print((math.sqrt(9)))
 print((math.sqrt(10)))
 
+import math
 print(math.sqrt(12))
 print(math.sqrt(13))
 print(math.sqrt(14))
@@ -126,7 +161,7 @@ print(math.sqrt(20))
 
 ###calcular o valor trigonometrico seno cosseno tangente:
 
-# seno
+####seno
 
 import math
 print(math.sin(1))
@@ -140,7 +175,7 @@ print(math.sin(8))
 print(math.sin(9))
 print(math.sin(10))
 
-# cosseno
+####cosseno
 
 import math
 print(math.sin(1))
@@ -154,7 +189,7 @@ print(math.sin(8))
 print(math.sin(9))
 print(math.sin(10))
 
-# tangente
+####tangente
 
 import math
 print(math.tan(1))
@@ -170,9 +205,54 @@ print(math.tan(10))
 
 ###elevar ao cubo + 9
 
+#####0 ao quadrado + 9
+
 import math
-print(int(2 * math.pow(3,2)))
-print(int(2 * math.pow(3,2) + 9))
+print(int(1 * math.pow(0,2)))
+print(int(1 * math.pow(0,2) + 9))
+print(int(1 * math.pow(0,2) + 18))
+print(int(1 * math.pow(0,2) + 27))
+print(int(1 * math.pow(0,2) + 36))
+print(int(1 * math.pow(0,2) + 45))
+print(int(1 * math.pow(0,2) + 54))
+print(int(1 * math.pow(0,2) + 63))
+print(int(1 * math.pow(0,2) + 72))
+print(int(1 * math.pow(0,2) + 81))
+print(int(1 * math.pow(0,2) + 90))
+
+#####1 ao quadrado + 9
+
+import math
+print(int(2 * math.pow(1,2)))
+print(int(2 * math.pow(1,2) + 9))
+print(int(2 * math.pow(1,2) + 18))
+print(int(2 * math.pow(1,2) + 27))
+print(int(2 * math.pow(1,2) + 36))
+print(int(2 * math.pow(1,2) + 45))
+print(int(2 * math.pow(1,2) + 54))
+print(int(2 * math.pow(1,2) + 63))
+print(int(2 * math.pow(1,2) + 72))
+print(int(2 * math.pow(1,2) + 81))
+print(int(2 * math.pow(1,2) + 90))
+
+#####2 elevado a 9
+
+import math
+print(int(2 * math.pow(2,3)))
+print(int(2 * math.pow(2,3) + 9))
+print(int(2 * math.pow(2,3) + 18))
+print(int(2 * math.pow(2,3) + 27))
+print(int(2 * math.pow(2,3) + 36))
+print(int(2 * math.pow(2,3) + 45))
+print(int(2 * math.pow(2,3) + 54))
+print(int(2 * math.pow(2,3) + 63))
+print(int(2 * math.pow(2,3) + 72))
+print(int(2 * math.pow(2,3) + 81))
+print(int(2 * math.pow(2,3) + 90))
+
+#####3 elevado a 9
+
+import math
 print(int(2 * math.pow(3,3)))
 print(int(2 * math.pow(3,3) + 9))
 print(int(2 * math.pow(3,3) + 18))
@@ -185,9 +265,9 @@ print(int(2 * math.pow(3,3) + 72))
 print(int(2 * math.pow(3,3) + 81))
 print(int(2 * math.pow(3,3) + 90))
 
+#####4 elevado a 9
+
 import math
-print(int(2 * math.pow(4,2)))
-print(int(2 * math.pow(4,2) + 9))
 print(int(2 * math.pow(4,3)))
 print(int(2 * math.pow(4,3) + 9))
 print(int(2 * math.pow(4,3) + 18))
@@ -196,8 +276,41 @@ print(int(2 * math.pow(4,3) + 36))
 print(int(2 * math.pow(4,3) + 45))
 print(int(2 * math.pow(4,3) + 54))
 print(int(2 * math.pow(4,3) + 63))
+print(int(2 * math.pow(4,3) + 72))
+print(int(2 * math.pow(4,3) + 81))
+print(int(2 * math.pow(4,3) + 90))
 
-###multplicação e divisão que tem a alta precedencia do que a adição e da subtração
+#####5 elevado a 9
+
+import math
+print(int(2 * math.pow(5,3)))
+print(int(2 * math.pow(5,3) + 9))
+print(int(2 * math.pow(5,3) + 18))
+print(int(2 * math.pow(5,3) + 27))
+print(int(2 * math.pow(5,3) + 36))
+print(int(2 * math.pow(5,3) + 45))
+print(int(2 * math.pow(5,3) + 54))
+print(int(2 * math.pow(5,3) + 63))
+print(int(2 * math.pow(5,3) + 72))
+print(int(2 * math.pow(5,3) + 81))
+print(int(2 * math.pow(5,3) + 90))
+
+#####6 elevado a 9
+
+import math
+print(int(2 * math.pow(6,3)))
+print(int(2 * math.pow(6,3) + 9))
+print(int(2 * math.pow(6,3) + 18))
+print(int(2 * math.pow(6,3) + 27))
+print(int(2 * math.pow(6,3) + 36))
+print(int(2 * math.pow(6,3) + 45))
+print(int(2 * math.pow(6,3) + 54))
+print(int(2 * math.pow(6,3) + 63))
+print(int(2 * math.pow(6,3) + 72))
+print(int(2 * math.pow(6,3) + 81))
+print(int(2 * math.pow(6,3) + 90))
+
+##multplicação e divisão que tem a alta precedencia do que a adição e da subtração
 
 print(2*3-1)
 
@@ -298,5 +411,36 @@ print(n)
 xy = 1
 (xy)
 
-###exercicio do capitulo 2
+##exercicio do capitulo 2
+
+####Exercicio 2.1
+
+# Repetindo o meu conselho do capítulo anterior, sempre que você aprender
+# um recurso novo, você deve testá-lo no modo interativo e fazer erros de
+# propósito para ver o que acontece.
+# • Vimos que n = 42 é legal. E 42 = n?
+# • Ou x = y = 1?
+# • Em algumas linguagens, cada instrução termina em um ponto e vírgula
+# ;. O que acontece se você puser um ponto e vírgula no fim de uma instrução
+# no Python?
+# • E se puser um ponto no fim de uma instrução?
+# • Em notação matemática é possível multiplicar x e y desta forma: xy. O
+# que acontece se você tentar fazer o mesmo no Python?
+
+
+
+#### Exercicio 2.2
+
+# Pratique o uso do interpretador do Python como uma calculadora:
+# 1. O volume de uma esfera com raio r é . Qual é o volume de uma esfera
+# com raio 5?
+# 2. Suponha que o preço de capa de um livro seja R$ 24,95, mas as
+# livrarias recebem um desconto de 40%. O transporte custa R$ 3,00 para o
+# primeiro exemplar e 75 centavos para cada exemplar adicional. Qual é o
+# custo total de atacado para 60 cópias?
+# 3. Se eu sair da minha casa às 6:52 e correr 1 quilômetro a um certo
+# passo (8min15s por quilômetro), então 3 quilômetros a um passo mais rápido
+# (7min12s por quilômetro) e 1 quilômetro no mesmo passo usado em primeiro
+# lugar, que horas chego em casa para o café da manhã?
+
 
