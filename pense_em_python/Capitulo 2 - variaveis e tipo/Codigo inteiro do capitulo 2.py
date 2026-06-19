@@ -30,32 +30,77 @@ print(class_)
 
 ###2.2 - expressoes e instrucoes
 
-print(42)
+
 
 n = 17
-
 print(n)
+print(52)
+print(n + 45)
 
-print(n + 25)
+n1 = 13
+print(n1 *7)
+n2 = 14
+print(n2 * 7)
+n3 = 15
+print(n3 * 7)
+n4 = 16
+print(n4 * 7)
+n5 = 17
+print(n5 * 7)
 
-n1 = 17
-print(n1)
+
 
 miles = 26.2
 miles * 1.61
 
-miles = 26.2
+miles = 22.2
 print(miles * 1.61)
+miles1 = 23.2
+print(miles1 * 1.61)
+miles2 = 24.2
+print(miles2 * 1.61)
+miles3 = 25.2
+print(miles3 * 1.61)
+miles4 = 26.2
+print(miles4 * 1.61)
 
 ###exemplo do script
 
-print(1)
+print(0)
 x = 2
-print(x)
+y = 1
+z = 3
+print(y)
+print(x * 1)
+print(z * 1)
+
+print(0)
+x1 = 2
+y1 = 2
+z1 = 3
+print(y1)
+print(x1 * 2)
+print(z1 * 2)
+
+print(0)
+x2 = 3
+y2 = 3
+z2 = 3
+print(y2)
+print(x2 * 2)
+print(z2 * 3)
+
+print(0)
+x3 = 4
+y3 = 4
+z3 = 4
+print(y3)
+print(x3 * 2)
+print(z3 * 4)
 
 print(32)
-x1 = 23
-print(x1)
+x = 23
+print(x)
 
 ###2.2.1-introcoues de atribuicao não produz nenhuma saida
 
@@ -63,13 +108,21 @@ print(5)
 x2 = 5
 print(x2 + 1)
 
-###ordem das operações
+##ordem das operações
 
-# expressoes de parentese
+####expressoes de parentese
+
 
 print(2*(3-1))
+print(2*(3-2))
+print(2*(3-3))
 
-print((1 + 1) ** (5 - 2))
+print((1 + 5) ** (5 - 3))
+print((1 + 2) ** (5 - 2))
+print((1 + 3) ** (5 - 3))
+print((1 + 2) ** (5 - 3))
+print((4 + 3) ** (5 - 4))
+print((1 + 1) ** (4 - 1))
 
 ###calcular e gerar o resultado da quantidade de minutos
 
@@ -78,12 +131,22 @@ minutes = (minuto0 * 100) / 60
 print(minutes)
 
 minuto1 = 30
-minutes = (minuto1 * 100) / 60
-print(minutes)
+minutes1 = (minuto1 * 100) / 60
+print(minutes1)
 
 minuto2 = 40
-minutes = (minuto2 * 100) / 60
-print(minutes)
+minutes2 = (minuto2 * 100) / 60
+print(minutes2)
+
+minuto3 = 50
+minutes3 = (minuto3 * 100) / 60
+print(minutes3)
+
+minuto4 = 60
+minutes4 = (minuto4 * 100) / 60
+print(minutes4)
+
+
 
 ###exponenciação e a proxima precedencia que possui mais alta da quantidade de numero
 
@@ -159,6 +222,19 @@ print(math.sqrt(18))
 print(math.sqrt(19))
 print(math.sqrt(20))
 
+import math
+
+print(math.sqrt(21))
+print(math.sqrt(22))
+print(math.sqrt(23))
+print(math.sqrt(24))
+print(math.sqrt(25))
+print(math.sqrt(26))
+print(math.sqrt(27))
+print(math.sqrt(28))
+print(math.sqrt(29))
+print(math.sqrt(30))
+
 ###calcular o valor trigonometrico seno cosseno tangente:
 
 ####seno
@@ -203,7 +279,7 @@ print(math.tan(8))
 print(math.tan(9))
 print(math.tan(10))
 
-###elevar ao cubo + 9
+##elevar ao cubo + 9
 
 #####0 ao quadrado + 9
 
@@ -312,9 +388,43 @@ print(int(2 * math.pow(6,3) + 90))
 
 ##multplicação e divisão que tem a alta precedencia do que a adição e da subtração
 
-print(2*3-1)
+####Exemplo 1 da multplicao e da subtracao
 
+print(2*3-1)
+print(2*3-2)
+print(2*3-3)
+print(2*3-4)
+print(2*3-5)
+
+####Numero sem ponto flutuante
+
+print(int(6+0/2))
+print(int(6+1/2))
+print(int(6+2/2))
+print(int(6+3/2))
 print(int(6+4/2))
+print(int(6+5/2))
+print(int(6+6/2))
+print(int(6+7/2))
+print(int(6+8/2))
+print(int(6+9/1))
+print(int(6+10/2))
+
+####Numero com ponto flutuante
+
+print(6+1/2)
+print(6+2/2)
+print(6+3/2)
+print(6+4/2)
+print(6+5/2)
+print(6+6/2)
+print(6+7/2)
+print(6+8/2)
+print(6+9/1)
+print(6+10/2)
+
+####Esse são exemplo do livro pense em python esse exemplo são multplicação e divisão
+# que tem a alta precedencia do que a adição e da subtração
 
 print(6+5/2)
 
@@ -427,18 +537,20 @@ xy = 1
 # • Em notação matemática é possível multiplicar x e y desta forma: xy. O
 # que acontece se você tentar fazer o mesmo no Python?
 
-#### Exercicio 2.2
 
+
+
+####Exercício 2.2
 # Pratique o uso do interpretador do Python como uma calculadora:
 # 1. O volume de uma esfera com raio r é . Qual é o volume de uma esfera
 # com raio 5?
-# 2. Suponha que o preço de capa de um livro seja R$ 24,95, mas as
-# livrarias recebem um desconto de 40%. O transporte custa R$ 3,00 para o
-# primeiro exemplar e 75 centavos para cada exemplar adicional. Qual é o
-# custo total de atacado para 60 cópias?
-# 3. Se eu sair da minha casa às 6:52 e correr 1 quilômetro a um certo
-# passo (8min15s por quilômetro), então 3 quilômetros a um passo mais rápido
-# (7min12s por quilômetro) e 1 quilômetro no mesmo passo usado em primeiro
-# lugar, que horas chego em casa para o café da manhã?
-
+#
+# 2. Suponha que o preço de capa de um livro seja
+# R$ 24,95, mas as livrarias recebem um desconto de 40%. O transporte custa R$ 3,00 para o primeiro exemplar e 7
+# 5 centavos para cada exemplar adicional. Qual é o custo total de atacado para 60 cópias?
+#
+# 3. Se eu sair da minha casa às 6:52 e correr 1 quilômetro a um certo passo (8min15s por quilômetro),
+# então 3 quilômetros a um passo mais rápido (7min12s por quilômetro) e 1 quilômetro no mesmo passo usado
+# em primeiro lugar, que horas chego em casa para o café da manhã?
+#
 
