@@ -1,6 +1,8 @@
 # Capitulo 3: funcoes
 
-###3.1 - chamada de função usando o type , int, str, o type eh para identificar o numero e palavra e o int usado para mostrar o valor sem o ponto flutuante e o float mostrar varios ponto flutuante
+###3.1 - chamada de função usando o type , int, str, o
+# type eh para identificar o numero e palavra e o int usado para
+# mostrar o valor sem o ponto flutuante e o float mostrar varios ponto flutuante
 
 print(type(42))
 
@@ -150,8 +152,8 @@ print_twice(math.pi,math.pi)
 print_twice(' spam '* 3,' spam ' * 4) # 12 palavras spam
 print_twice(math.sin(math.pi), math.sin(math.pi))
 
-####a mesma composição do codigo anterior usando a função integrada são aplicada a função definidas
-# pelos programadores, então podemos usar qualquer tipo de expressão como argumentos
+####a mesma composição do codigo anterior usando a função integrada são aplicada a função
+# definidas pelos programadores, então podemos usar qualquer tipo de expressão como argumentos
 
 import math
 def print_twice1(bruce3):
@@ -212,6 +214,79 @@ def print_twice3(bruce6):
 result = print_twice3('Bing')
 
 print(type(result))
+
+##Exercicio do capitulo 3
+
+####Exercicio 3.1
+# Escreva uma função chamada right_justify, que receba uma string chamada s
+# como parâmetro e exiba a string com espaços suficientes à frente para que a
+# última letra da string esteja na coluna 70 da tela:
+# >>> right_justify(‘monty’)
+# monty
+# Dica: Use concatenação de strings e repetição. Além disso, o Python oferece
+# uma função integrada chamada len, que apresenta o comprimento de uma
+# string, então o valor de len(‘monty’) é 5.
+
+###Exercicio 3.2
+# Um objeto de função é um valor que pode ser atribuído a uma variável ou
+# passado como argumento. Por exemplo, do_twice é uma função que toma umobjeto de função
+# como argumento e o chama duas vezes:
+# def do_twice(f):
+# f()
+# f()
+# Aqui está um exemplo que usa do_twice para chamar uma função chamada
+# print_spam duas vezes:
+# def print_spam():
+# print(‘spam’)
+# do_twice(print_spam)
+# 1. Digite este exemplo em um script e teste-o.
+# 2. Altere do_twice para que receba dois argumentos, um objeto de
+# função e um valor, e chame a função duas vezes, passando o valor como um
+# argumento.
+# 3. Copie a definição de print_twice que aparece anteriormente neste
+# capítulo no seu script.
+# 4. Use a versão alterada de do_twice para chamar print_twice duas vezes,
+# passando ‘spam’ como um argumento.
+# 5. Defina uma função nova chamada do_four que receba um objeto de
+# função e um valor e chame a função quatro vezes, passando o valor como um
+# parâmetro. Deve haver só duas afirmações no corpo desta função, não quatro.
+# Solução: http://thinkpython2.com/code/do_four.py.
+
+
+
+
+###Exercicio 3.3
+
+# Nota: Este exercício deve ser feito usando-se apenas as instruções e os outros
+# recursos que aprendemos até agora.1. Escreva uma função que desenhe uma grade como a seguinte:
+
+#+ - - - - + - - - - +
+#| | |
+#| | |
+#| | |
+#| | |
+#+ - - - - + - - - - +
+#| | |
+#| | |
+#| | |
+#| | |
+#+ - - - - + - - - - +
+
+
+# Dica: para exibir mais de um valor em uma linha, podemos usar uma
+# sequência de valores separados por vírgula:
+# print(‘+’, ‘-’)
+# Por padrão, print avança para a linha seguinte, mas podemos ignorar
+# esse comportamento e inserir um espaço no fim, desta forma:
+# print(‘+’, end=’ ’)
+# print(‘-’)
+# A saída dessas instruções é ‘+ -’.
+# Uma instrução print sem argumento termina a linha atual e vai para apróxima linha.
+# 2. Escreva uma função que desenhe uma grade semelhante com quatro
+# linhas e quatro colunas.
+# Solução: http://thinkpython2.com/code/grid.py. Crédito: Este exercício é
+# baseado em outro apresentado por Oualline, em Practical C Programming,
+# Third Edition, O’Reilly Media, 1997.
 
 ####O resultado do capitulo:
 # <class 'int'>
