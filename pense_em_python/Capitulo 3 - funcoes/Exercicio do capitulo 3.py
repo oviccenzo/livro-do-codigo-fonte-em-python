@@ -10,7 +10,8 @@
 
 ###Exercicio 3.2
 # Um objeto de função é um valor que pode ser atribuído a uma variável ou
-# passado como argumento. Por exemplo, do_twice é uma função que toma umobjeto de função como argumento e o chama duas vezes:
+# passado como argumento. Por exemplo, do_twice é uma função que toma um
+#objeto de função como argumento e o chama duas vezes:
 # def do_twice(f):
 # f()
 # f()
