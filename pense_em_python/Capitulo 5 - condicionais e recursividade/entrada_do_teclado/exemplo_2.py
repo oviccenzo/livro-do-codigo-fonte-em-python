@@ -1,0 +1,1 @@
+text1 = input() #what are you training for?
